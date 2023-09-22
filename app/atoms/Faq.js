@@ -43,7 +43,7 @@ export const Faq = () => {
   return (
     <>
       {Services.map((item, i) => {
-        return <Accordion key={i} i={i} item={...item} open={open} setOpen={setOpen} />;
+        return <Accordion key={`${li}-i`} i={i} item={...item} open={open} setOpen={setOpen} />;
       })}
     </>
     
