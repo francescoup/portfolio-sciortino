@@ -99,7 +99,7 @@ const MobileMenu = ({ open, setopen }) => {
       variants={mobileMenuVariant}
       initial="closed"
       animate={open ? "opened" : "closed"}
-      className="top-0 fixed h-screen w-screen bg-gray-800 z-50 md:hidden"
+      className="top-0 fixed min-h-screen w-screen bg-slate-900 z-50 lg:hidden"
     >
       <div className="flex justify-between py-4 px-8 border-slate-600 border-b">
         <div>
@@ -112,7 +112,7 @@ const MobileMenu = ({ open, setopen }) => {
           X
         </div>
       </div>
-      <div className="flex flex-col mt-24  gap-24 items-center justify-center">
+      <div className="flex flex-col mt-24 md:mt-12 md:gap-6  gap-24 items-center justify-center">
         <motion.ul
           variants={ulVariant}
           className="flex flex-col items-center gap-2"

@@ -1,14 +1,35 @@
 import Image from "next/image";
 import Button from "../atoms/Button";
+import { motion } from "framer-motion";
 
 export default function Banner() {
   return (
-    <section className="flex items-end justify-between max-sm:justify-center max-sm:flex-col max-sm:items-start w-full bg-blue-500/50 h-screen p-4 md:px-12 relative gap-6 md:py-24 ">
-      <div className="flex md:items-start w-[50%] md:h-[50%]  z-10 max-sm:w-full">
-        <h2 className="text-slate-50 md:text-7xl text-4xl font-mont ">
+    <section className="flex  items-end justify-between max-sm:justify-center max-sm:flex-col max-sm:items-start w-full bg-blue-500/50 h-screen p-4 md:px-12 relative gap-6 md:py-24 ">
+      <div className="flex flex-col md:items-start w-[50%] md:h-[50%]  z-10 max-sm:w-full">
+        <motion.h2
+          initial={{ x: 30, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.25 }}
+          className="text-slate-50 lg:text-7xl text-4xl font-mont "
+        >
           Luca Sciortino
-          <br /> Fisioterapista e <br /> Osteopata.
-        </h2>
+        </motion.h2>
+        <motion.h3
+          initial={{ x: 30, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.25, delay: 0.25 }}
+          className="text-slate-50 lg:text-7xl text-4xl font-mont"
+        >
+          Fisioterapista e{" "}
+        </motion.h3>
+        <motion.h3
+          initial={{ x: 30, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.25, delay: 0.35 }}
+          className="text-slate-50 lg:text-7xl text-4xl font-mont"
+        >
+          Osteopata.
+        </motion.h3>
       </div>
       <div className="flex items-start justify-between  flex-col w-[50%] md:h-[50%] max-sm:w-full md:pr-24 gap-6 ">
         <h3 className="text-slate-50 font-mont">

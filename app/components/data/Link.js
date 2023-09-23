@@ -1,18 +1,23 @@
 export const Links = [
   {
     title: "Chi Sono",
-    link: "chi-sono",
+    link: "#chi-sono",
+  },
+  {
+    title: "Certificazioni",
+    link: "#certificazioni",
   },
   {
     title: "Servizi",
     link: "#servizi",
   },
-  {
-    title: "Certificazioni",
-    link: "certificazioni",
-  },
+
   {
     title: "Ambiente",
-    link: "#contact",
+    link: "#ambulatorio",
+  },
+  {
+    title: "Contatti",
+    link: "#contatti",
   },
 ];

@@ -9,6 +9,7 @@ import { useInView } from "framer-motion";
 import React, { useRef } from "react";
 import Products from "./components/Products";
 import Contact from "./components/Contact";
+import Gallery from "./components/Gallery";
 
 export default function Home() {
   const ref = useRef(null);
@@ -21,6 +22,7 @@ export default function Home() {
       <section ref={ref}>
         <Features />
         <Products />
+        <Gallery />
         <Contact />
       </section>
     </main>

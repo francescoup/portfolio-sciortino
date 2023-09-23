@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Accordion = ({ i, item, open, setOpen }) => {
   const isOpen = i === open;
- 
+  
 
   return (
     <>
@@ -39,11 +39,11 @@ const Accordion = ({ i, item, open, setOpen }) => {
 };
 
 export const Faq = () => {
-  const [open, setOpen] = useState(0);
+  const [open, setOpen] = useState(null);
   return (
     <>
       {Services.map((item, i) => {
-        return <Accordion key={`${li}-i`} i={i} item={...item} open={open} setOpen={setOpen} />
+        return <Accordion key={i} i={i} item={...item} open={open} setOpen={setOpen} />;
       })}
     </>
     

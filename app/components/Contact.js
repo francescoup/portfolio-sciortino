@@ -3,10 +3,7 @@ import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section
-      id="contact"
-      className="w-full py-12 px-4 md:px-12  border bg-slate-900"
-    >
+    <section id="contatti" className="w-full py-12 px-4 md:px-12  bg-slate-900">
       <div className="relative mb-8">
         <span className=" text-[12px] text-slate-200">CONTATTI</span>
       </div>

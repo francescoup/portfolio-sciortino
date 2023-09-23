@@ -14,8 +14,7 @@ export default function Navbar({ inView }) {
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious();
-    console.log(previous);
-    console.log(latest);
+
     if (latest > previous && latest > 150) {
       setHidden(true);
     } else {
@@ -44,11 +43,13 @@ export default function Navbar({ inView }) {
         <Menu
           liClass={`${
             inView ? "text-gray-900" : "text-white"
-          } text-xs  font-bold hover:text-gray-500 font-mont  transition ease-in-out delay-150 hover:-translate-y-1 duration-300 relative after:bg-red-500 after:absolute after:h-[1px] after:border-slate-50 after:w-0 after:-bottom-2 after:left-0 hover:after:w-1/2 after:transition-all after:duration-300 cursor-pointer`}
+          } text-xs  font-bold hover:text-slate-900 font-mont  transition ease-in-out delay-150 duration-300 relative after:bg-red-500 after:absolute after:h-[1px] after:border-slate-50 after:w-0 after:-bottom-2 after:left-0 hover:after:w-1/2 after:transition-all after:duration-300 cursor-pointer`}
           ulClass="flex gap-4 items-center"
         />
         <button
-          className="text-sm text-white md:hidden"
+          className={`${
+            inView ? "text-gray-900" : "text-white"
+          } text-sm  lg:hidden`}
           onClick={() => setMobileNavOpen(!mobileNavOpen)}
         >
           menu

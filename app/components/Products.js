@@ -9,9 +9,9 @@ export default function Products() {
       <div className="relative mb-8">
         <span className=" text-[12px]">SERVIZI</span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 ">
-        <div className="basis-1/2 md:place-self-start start  md:sticky top-0">
-          <h2 className="text-slate-800 font-mont text-7xl max-sm:text-2xl mb-12 self-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 ">
+        <div className="basis-1/2 md:place-self-start start  lg:sticky top-0">
+          <h2 className="text-slate-800 font-mont lg:text-7xl text-4xl mb-12 self-center">
             Scopri tutti
             <br /> i nostri servizi.
           </h2>
