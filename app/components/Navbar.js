@@ -41,6 +41,7 @@ export default function Navbar({ inView }) {
         <Logo inview={inView} />
 
         <Menu
+          menuClass="max-sm:hidden md:hidden lg:block"
           liClass={`${
             inView ? "text-gray-900" : "text-white"
           } text-xs  font-bold hover:text-slate-900 font-mont  transition ease-in-out delay-150 duration-300 relative after:bg-red-500 after:absolute after:h-[1px] after:border-slate-50 after:w-0 after:-bottom-2 after:left-0 hover:after:w-1/2 after:transition-all after:duration-300 cursor-pointer`}

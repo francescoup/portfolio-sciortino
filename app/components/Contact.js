@@ -3,14 +3,14 @@ import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contatti" className="w-full py-12 px-4 md:px-12  bg-slate-900">
+    <footer id="contatti" className="w-full py-12 px-4 md:px-12  bg-slate-900">
       <div className="relative mb-8">
         <span className=" text-[12px] text-slate-200">CONTATTI</span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
         <div className="basis-1/2  flex flex-col">
           <Menu
-            liClass="text-4xl text-slate-100 mb-4 font-mont hover:text-slate-400"
+            liClass="md:text-4xl text-2xl text-slate-100 mb-4 font-mont hover:text-slate-400"
             ulClass="flex flex-col"
           />
         </div>
@@ -18,7 +18,7 @@ export default function Contact() {
           <div className="flex flex-col content-between gap-6">
             <h3 className="text-xs font-mont">Dove Siamo</h3>
             <div className="text-sm font-mont text-slate-400">
-              <p>Via Francesco 152 </p>
+              <p>Via Francesco Crispi 152 </p>
               <p>92100 Agrigento</p>
             </div>
             <div className="text-sm font-mont text-slate-400">
@@ -41,6 +41,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }

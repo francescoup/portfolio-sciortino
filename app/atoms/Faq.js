@@ -10,8 +10,8 @@ const Accordion = ({ i, item, open, setOpen }) => {
     <>
       <div className="w-full border-t last:border-b py-12">
         <div className="flex justify-between items-center">
-          <span className="text-xl font-mont text-slate-800"  onClick={() => setOpen(isOpen ? false : i)}>{item.title}</span>
-          <span className="text-3xl font-mont font-thin" onClick={() => setOpen(isOpen ? false : i)}>{isOpen ? '-': '+'}</span>
+          <span className="cursor-pointer text-xl font-mont text-slate-800"  onClick={() => setOpen(isOpen ? false : i)}>{item.title}</span>
+          <span className="cursor-pointer text-3xl font-mont font-thin" onClick={() => setOpen(isOpen ? false : i)}>{isOpen ? '-': '+'}</span>
         </div>
         <AnimatePresence initial={false}>
         {isOpen && (
@@ -43,9 +43,7 @@ export const Faq = () => {
   return (
     <>
       {Services.map((item, i) => {
-
         return <Accordion key={i} i={i} item={...item} open={open} setOpen={setOpen} />;
-
       })}
     </>
     

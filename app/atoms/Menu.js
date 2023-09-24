@@ -1,9 +1,9 @@
 import React from "react";
 import { Links } from "../components/data/Link";
 
-export default function Menu({ liClass, ulClass }) {
+export default function Menu({ menuClass, liClass, ulClass }) {
   return (
-    <div className="max-sm:hidden md:hidden lg:block  ">
+    <div className={menuClass}>
       <ul className={ulClass}>
         {Links.map((link) => {
           return (

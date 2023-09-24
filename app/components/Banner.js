@@ -1,44 +1,55 @@
 import Image from "next/image";
 import Button from "../atoms/Button";
-import { motion } from "framer-motion";
+import { animate, motion } from "framer-motion";
 
 export default function Banner() {
   return (
-    <section className="flex  items-end justify-between max-sm:justify-center max-sm:flex-col max-sm:items-start w-full bg-blue-500/50 h-screen p-4 md:px-12 relative gap-6 md:py-24 ">
+    <header className="flex  items-end justify-between max-sm:justify-center max-sm:flex-col max-sm:items-start w-full bg-blue-500/60 h-screen p-4 md:px-12 relative gap-6 md:py-24 ">
       <div className="flex flex-col md:items-start w-[50%] md:h-[50%]  z-10 max-sm:w-full">
         <motion.h2
-          initial={{ x: 30, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.25 }}
           className="text-slate-50 lg:text-7xl text-4xl font-mont "
         >
           Luca Sciortino
         </motion.h2>
         <motion.h3
-          initial={{ x: 30, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.25, delay: 0.25 }}
           className="text-slate-50 lg:text-7xl text-4xl font-mont"
         >
           Fisioterapista e{" "}
         </motion.h3>
         <motion.h3
-          initial={{ x: 30, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.25, delay: 0.35 }}
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.25, delay: 0.25 * 2 }}
           className="text-slate-50 lg:text-7xl text-4xl font-mont"
         >
           Osteopata.
         </motion.h3>
       </div>
       <div className="flex items-start justify-between  flex-col w-[50%] md:h-[50%] max-sm:w-full md:pr-24 gap-6 ">
-        <h3 className="text-slate-50 font-mont">
+        <motion.h3
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.25, delay: 0.25 * 3 }}
+          className="text-slate-50 font-mont"
+        >
           Prova anche tu i benefici della fisioterapia e dell'Osteopatia <br />{" "}
           il tuo corpo è l'unico posto in cui devi vivere
-        </h3>
-        <Button classname="bg-white/30 font-mont hover:bg-white transition ease-in-out delay-75 duration-300 px-8 py-4 rounded-full text-sm font-bold text-slate-50 hover:text-blue-500 ">
-          Conosciamoci
-        </Button>
+        </motion.h3>
+        <motion.div
+          initial={{ y: 30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.25, delay: 0.25 * 4 }}
+        >
+          <Button classname="bg-white/30 font-mont hover:bg-white transition ease-in-out delay-75 duration-300 px-8 py-4 rounded-full text-sm font-bold text-slate-50 hover:text-blue-500 ">
+            Conosciamoci
+          </Button>
+        </motion.div>
       </div>
       <div
         className="absolute inset-0 -z-10"
@@ -48,6 +59,6 @@ export default function Banner() {
           WebkitBackgroundSize: "cover",
         }}
       ></div>
-    </section>
+    </header>
   );
 }

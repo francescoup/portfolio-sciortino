@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Links } from "../components/data/Link";
 import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
 import Menu from "./Menu";
 import React, { useState } from "react";
 const MobileMenu = ({ open, setopen }) => {
@@ -101,16 +102,16 @@ const MobileMenu = ({ open, setopen }) => {
       animate={open ? "opened" : "closed"}
       className="top-0 fixed min-h-screen w-screen bg-slate-900 z-50 lg:hidden"
     >
-      <div className="flex justify-between py-4 px-8 border-slate-600 border-b">
+      <div className="flex justify-between items-center py-4 px-8 border-slate-600 border-b">
         <div>
           <h1 className="text-white font-mont font-bold">
             luca<span className="font-thin">sciortino</span>
           </h1>
         </div>
 
-        <div onClick={() => setopen(!open)} className="text-white font-thin">
-          X
-        </div>
+        <button onClick={() => setopen(!open)} className="text-white font-thin">
+          <AiOutlineClose />
+        </button>
       </div>
       <div className="flex flex-col mt-24 md:mt-12 md:gap-6  gap-24 items-center justify-center">
         <motion.ul
