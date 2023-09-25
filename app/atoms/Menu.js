@@ -7,7 +7,7 @@ export default function Menu({ menuClass, liClass, ulClass }) {
       <ul className={ulClass}>
         {Links.map((link) => {
           return (
-            <li className={liClass} key={link.title}>
+            <li className={!link.show ? liClass : "hidden"} key={link.title}>
               <a href={link.link}> {link.title}</a>
             </li>
           );

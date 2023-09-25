@@ -100,7 +100,7 @@ const MobileMenu = ({ open, setopen }) => {
       variants={mobileMenuVariant}
       initial="closed"
       animate={open ? "opened" : "closed"}
-      className="top-0 fixed min-h-screen w-screen bg-slate-900 z-50 lg:hidden"
+      className="top-0 fixed min-h-screen w-screen bg-slate-900/90 z-50 lg:hidden"
     >
       <div className="flex justify-between items-center py-4 px-8 border-slate-600 border-b">
         <div>
@@ -131,12 +131,6 @@ const MobileMenu = ({ open, setopen }) => {
             );
           })}
         </motion.ul>
-        <div>
-          <div className="flex gap-4 text-xl text-white">
-            <FaFacebookSquare />
-            <FaInstagram />
-          </div>
-        </div>
       </div>
     </motion.div>
   );

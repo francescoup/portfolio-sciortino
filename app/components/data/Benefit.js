@@ -17,12 +17,12 @@ export const Benefit = [
   {
     title: "AIF italia",
     subTitle: "Associazione Italiana Fisioterapisti",
-    text: "iscritto dal 2000 all'Associazione Italiana Fisioterapisti",
+    text: "Iscritto dal 2000 all'Associazione Italiana Fisioterapisti",
   },
   {
     title: "UNIPA",
     subTitle: "Università degli studi di Palermo",
-    text: "Laurea in Scienze Motorie presso l’università di Palermo",
+    text: "Laurea in Scienze Motorie presso l'università di Palermo",
   },
   {
     title: "SUN Napoli",
@@ -32,6 +32,6 @@ export const Benefit = [
   {
     title: "AIMO",
     subTitle: "Accademia Italiana Medicina Osteopatica",
-    text: "Master in Osteopatia Sportiva rilasciato dall' Aimo di Torino",
+    text: "Master in Osteopatia Sportiva rilasciato dall'Aimo di Torino",
   },
 ];

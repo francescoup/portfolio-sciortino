@@ -1,3 +1,5 @@
+import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
+
 export const Links = [
   {
     title: "Chi Sono",
@@ -19,5 +21,14 @@ export const Links = [
   {
     title: "Contatti",
     link: "#contatti",
+  },
+  {
+    title: (
+      <div className="flex gap-4 mt-8 text-xl text-white">
+        <FaFacebookSquare />
+        <FaInstagram />
+      </div>
+    ),
+    show: true,
   },
 ];

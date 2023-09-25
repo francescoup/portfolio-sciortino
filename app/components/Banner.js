@@ -47,7 +47,7 @@ export default function Banner() {
           transition={{ duration: 0.25, delay: 0.25 * 4 }}
         >
           <Button classname="bg-white/30 font-mont hover:bg-white transition ease-in-out delay-75 duration-300 px-8 py-4 rounded-full text-sm font-bold text-slate-50 hover:text-blue-500 ">
-            Conosciamoci
+            <a href="#contatti">Contattaci</a>
           </Button>
         </motion.div>
       </div>

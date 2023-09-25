@@ -1,5 +1,6 @@
 import Menu from "../atoms/Menu";
 import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
+import CookieConsent from "react-cookie-consent";
 
 export default function Contact() {
   return (
@@ -41,6 +42,27 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <CookieConsent
+        containerClasses="grid grid-col-1"
+        buttonClasses="max-sm:w-full"
+        buttonText="Ho capito"
+        expires={31}
+        style={{
+          background: "#fff",
+          color: "#000",
+          borderTopRightRadius: "10px",
+          borderTopLeftRadius: "10px",
+        }}
+        buttonStyle={{
+          background: "#0f172a",
+          color: "#fff",
+          borderRadius: "30px",
+          fontSize: "12px",
+          padding: "8px 16px",
+        }}
+      >
+        Questo sito utilizza i Cookie per migliorare la tua navigazione.
+      </CookieConsent>
     </footer>
   );
 }
