@@ -11,7 +11,7 @@ export default function Contact() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
         <div className="basis-1/2  flex flex-col">
           <Menu
-            liClass="md:text-4xl text-2xl text-slate-100 mb-4 font-mont hover:text-slate-400"
+            liClass="md:text-3xl text-2xl text-slate-100 mb-4 font-mont hover:text-slate-400"
             ulClass="flex flex-col"
           />
         </div>

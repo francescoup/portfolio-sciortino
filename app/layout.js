@@ -7,6 +7,12 @@ export const metadata = {
   title: "Luca Sciortino, Fisioterapista e Osteopata ad Agrigento",
   description:
     "Fisioterapista e Osteopata, riceve ad Agrigento e Alessandria della Rocca",
+  keywords: [
+    "fisioterapista Agrigento",
+    "osteopata Agrigento",
+    "Luca Sciortino Fisioterapista",
+    "Luca Sciortino Osteopata",
+  ],
 };
 
 export default function RootLayout({ children }) {

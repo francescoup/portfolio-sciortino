@@ -42,7 +42,7 @@ export default function About() {
 
         <div className="  aspect-[9/10]  w-full relative col-span-1  place-self-end">
           <Image
-            src="/images/sciortino-profile.jpg"
+            src="/images/luca-sciortino-photo.jpg"
             fill
             alt="Luca Sciortino"
             className=" object-fit "
