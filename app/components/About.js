@@ -29,15 +29,28 @@ export default function About() {
             className="text-slate-800 font-mont text-2xl lg:text-7xl mb-12"
           >
             Luca Sciortino
-            <br /> Fisioterapista e <br /> Osteopata.
+            <br />
           </h2>
-          <h3 className="text-slate-600 mb-12 font-mont">
-            D.O. in osteopatia presso l'Eio di Catania, laurea in fisioterapia
-            al S.U.N di Napoli, laurea in Scienze Motorie presso l'università di
-            Palermo. Master universitario in Scienze Osteopatiche conseguito
-            presso Università Bicocca di Milano. Master in Osteopatia Sportiva
-            rilasciato dall' Aimo di Torino.
+          <h3 className="text-slate-800 font-mont text-2xl md:text-4xl mb-8">
+            Osteopata, Fisioterapista e Chinesiologo.
           </h3>
+          <h4 className="text-slate-600 mb-12 font-mont">
+            D.O. in Osteopatia presso l'EIO di Catania, laurea in Fisioterapia
+            alla S.U.N di Napoli, laurea in Scienze Motorie presso l'Università
+            di Palermo. Master universitario in Scienze Osteopatiche conseguito
+            presso Università Bicocca di Milano. Master in Osteopatia Sportiva
+            rilasciato dall' AIMO di Torino.
+          </h4>
+          <h5 className="text-slate-600 mb-12 font-mont">
+            Cerco sempre di offrire a ciascun paziente un programma
+            riabilitativo personalizzato, costruito direttamente sulle
+            problematiche del singolo individuo. In tale ottica, vengono
+            utilizzati strumenti, attrezzature e/o tecniche di medicina manuale
+            e osteopatiche per garantire i migliori risultati possibili. Il
+            percorso riabilitativo sarà modellato sulle risposta del paziente,
+            assicurando così un percorso di recupero su misura, volto al
+            ripristino del proprio stato di salute e alla risoluzione del dolore
+          </h5>
         </div>
 
         <div className="  aspect-[9/10]  w-full relative col-span-1  place-self-end">

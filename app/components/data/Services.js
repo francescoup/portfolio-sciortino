@@ -1,30 +1,22 @@
 export const Services = [
   {
-    title: "Terapia del dolore",
-    text: "Lo studio mette a disposizione dei suoi pazienti i migliori macchinari per il trattamento del dolore e di problematiche legate all'apparato muscolo - scheletrico. Miglioramento degli stati infiammatori e dolori articolari cronici.",
-  },
-  {
-    title: "Miglioramento della postura",
-    text: "Il trattamento posturale viene eseguito seguendo le linee guida del metodo Mezieres. Viene utilizzata soprattutto per le scoliosi, gli atteggiamenti scoliotici, ed è adatta per le persone che svolgono dei lavori sedentari e poco confortevoli. Viene effettuata 1-2 volte a settimana e i risultati si notano gia dalla prima settimana di trattamento.",
-  },
-  {
     title: "Osteopatia",
-    text: "È un sistema di tecniche esclusivamente manuali (manipolazioni di articolazioni, organi e tessuti) che si avvale di un approccio causale e non sintomatico. L'osteopatia ricerca le alterazioni funzionali del corpo che portano al manifestarsi di segni e sintomi che possono poi sfociare in dolori di vario genere. È un approccio terapeutico globale, indicato e adatto a tutte l'età, riconosciuto ufficialmente dall'OMS (Organizzazione Mondiale della Sanità).",
+    text: "Un approccio terapeutico globale, che utilizza  un sistema di tecniche prettamente manuali (manipolazioni di articolazioni, organi e tessuti ) e che si avvale di una valutazione causale e non sintomatica, volta ad individuare la causa del dolore che talvolta non corrisponde alla zona della sua insorgenza. L'osteopatia è una forma di medicina manuale indicata e adatta a tutte l'età, riconosciuta ufficialmente dall'Organizzazione Mondiale della sanità, e che  dal 2021 rientra nell'elenco delle professioni sanitarie del nostro paese.",
   },
   {
-    title: "Fisioterapia Ortopedica",
-    text: "La riabilitazione ortopedica viene utilizzata per il recupero di capacità motorie perdute o ridotte in seguito ad eventi traumatici (es. riabilitazione di spalla, ginocchio, caviglia in seguito ad evento traumatico) ed al mantenimento o recupero di funzioni indebolite nel corso di una malattia cronica di tipo ortopedico-traumatologico-reumatologico.",
+    title: "Terapie Strumentali",
+    text: "Tecar, Laser, Onde d'urto, Crioterapia, Ultrasuoni, Pressoterapia, Magneto terapia, Elettroterapia ( elettrostimolazione, tens,ecc…) - La  terapia strumentale è l'insieme di tutti quei trattamenti  della medicina riabilitativa che si avvalgono dell'utilizzo di apparecchiature elettromedicali. Tali apparecchiature, sfruttano principi e mezzi fisici differenti (calore, freddo ultrasuoni, impulsi elettrici, campi magnetici) con lo scopo  d andare a stimolare una risposta biologica specifica del nostro corpo a scopo terapeutico. La fisioterapia strumentale utilizzata da sola e/o in associazione con terapie manuali, ha come obiettivo primario quello di ridurre la sintomatologia dolorosa e gli stati infiammatori, incentivare i processi di guarigione, andando così a ripristinare la normale fisiologia e funzionalità oste-articolare.",
   },
   {
-    title: "Fisioterapia per il Morbo di Parkinson",
-    text: "L'approccio riabilitativo neurologico utilizzato dai terapisti di Osteon Agrigento si avvale di tecniche manuali e posturali con particolare attenzione all'aspetto motorio del paziente. Mira al recupero e mantenimento dell'elasticità muscolare, della coordinazione motoria, utilizzando esercizi di allungamento, mobilitazioni attive e passive e training funzionale.",
+    title: "Rieducazione posturale  Metodo Mézières",
+    text: "Si tratta di una forma di ginnastica specifica, basata su una serie di esercizi volti sia ad allentare le tensioni (che molto spesso causano dolore) sia a migliorare elasticità, tonicità, forza e resistenza muscolare. Nelle specifico, il metodo di rieducazione posturale Mézières lavora sulle retrazioni delle diverse catene muscolari del sistema tonico posturale del nostro corpo, ripristinando l'equilibrio morfo- strutturale e funzionale del sistema muscolo- scheletrico, andando in tal modo a risolvere la causa dell'insorgenza di numerosi dolori.",
   },
   {
-    title: "Terapia Funzionale",
-    text: "Si tratta di un allenamento fisico mirato con l'aiuto di esercizi di forza, resistenza, flessibilità e coordinazione. Viene utilizzato soprattutto per gli sportivi con l'obiettivo di ritorno in campo nel minor tempo possibile. ",
+    title: "Massoterapia",
+    text: "Si tratta del trattamento fisioterapico più antico e conosciuto. Attraverso un massaggio terapeutico o preventivo, è possibile migliorare le attività biologiche dei tessuti, ridurre lo stress, contratture muscolari ed edemi di natura linfatica.",
   },
   {
-    title: "Fisioterapia a domicilio ",
-    text: "Se a causa del tuo stato di salute o mancanza del mezzo non puoi venire presso il mio studio per le cure, offriamo anche la possibilità di effettuare la terapia a casa tua. ",
+    title: "Recupero Funzionale",
+    text: "Il recupero funzionale è un trattamento che utilizza  un programma mirato  di esercizi di forza, resistenza, coordinazione, di propiocezione e di riatletizzazione, nel caso degli sportivi. Esso, ha l'obiettivo di portare al recupero della normale funzionalità e fisiologia osteo-articolare e muscolare, in seguito ad un intervento, un incidente o un evento traumatico che abbiano compromesso la funzionalità del sistema.",
   },
 ];

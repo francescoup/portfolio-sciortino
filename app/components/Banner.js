@@ -18,17 +18,17 @@ export default function Banner() {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.25, delay: 0.25 }}
-          className="text-slate-50 lg:text-7xl text-4xl font-mont"
+          className="text-slate-50 lg:text-5xl text-4xl font-mont"
         >
-          Fisioterapista e{" "}
+          Osteopata{" "}
         </motion.h3>
         <motion.h3
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.25, delay: 0.25 * 2 }}
-          className="text-slate-50 lg:text-7xl text-4xl font-mont"
+          className="text-slate-50 lg:text-5xl text-4xl font-mont"
         >
-          Osteopata.
+          Fisioterapista Chinesiologo
         </motion.h3>
       </div>
       <div className="flex items-start justify-between  flex-col w-[50%] md:h-[50%] max-sm:w-full md:pr-24 gap-6 ">
@@ -39,7 +39,8 @@ export default function Banner() {
           className="text-slate-50 font-mont"
         >
           Prova anche tu i benefici della fisioterapia e dell'Osteopatia <br />{" "}
-          il tuo corpo è l'unico posto in cui devi vivere
+          La salute non è tutto, ma senza salute tutto è niente <br /> "Arthur
+          Shopenhauer"
         </motion.h3>
         <motion.div
           initial={{ y: 30, opacity: 0 }}
@@ -54,7 +55,7 @@ export default function Banner() {
       <div
         className="absolute inset-0 -z-10"
         style={{
-          backgroundImage: `url(images/bg-fisioterapia.jpg)`,
+          backgroundImage: `url(images/copertina.jpeg)`,
           backgroundPosition: "top",
           WebkitBackgroundSize: "cover",
         }}

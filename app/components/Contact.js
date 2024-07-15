@@ -35,8 +35,19 @@ export default function Contact() {
             </div>
             <div>
               <div className="flex gap-4 text-xl">
-                <FaFacebookSquare />
-                <FaInstagram />
+                <a
+                  href="https://www.facebook.com/Fisioart.dott.lucasciortino"
+                  target="_blank"
+                >
+                  <FaFacebookSquare />
+                </a>
+                <a
+                  href="https://www.instagram.com/dott.luca_sciortino"
+                  target="_blank"
+                >
+                  {" "}
+                  <FaInstagram />
+                </a>
               </div>
             </div>
           </div>

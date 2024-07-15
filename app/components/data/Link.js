@@ -25,8 +25,16 @@ export const Links = [
   {
     title: (
       <div className="flex gap-4 mt-8 text-xl text-white">
-        <FaFacebookSquare />
-        <FaInstagram />
+        <a
+          href="https://www.facebook.com/Fisioart.dott.lucasciortino"
+          target="_blank"
+        >
+          <FaFacebookSquare />
+        </a>
+        <a href="https://www.instagram.com/dott.luca_sciortino" target="_blank">
+          {" "}
+          <FaInstagram />
+        </a>
       </div>
     ),
     show: true,
