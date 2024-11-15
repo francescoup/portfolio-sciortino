@@ -42,14 +42,15 @@ export default function About() {
             rilasciato dall' AIMO di Torino.
           </h4>
           <h5 className="text-slate-600 mb-12 font-mont">
-            Cerco sempre di offrire a ciascun paziente un programma
+            "Cerco sempre di offrire a ciascun paziente un programma
             riabilitativo personalizzato, costruito direttamente sulle
             problematiche del singolo individuo. In tale ottica, vengono
             utilizzati strumenti, attrezzature e/o tecniche di medicina manuale
             e osteopatiche per garantire i migliori risultati possibili. Il
             percorso riabilitativo sarà modellato sulle risposta del paziente,
             assicurando così un percorso di recupero su misura, volto al
-            ripristino del proprio stato di salute e alla risoluzione del dolore
+            ripristino del proprio stato di salute e alla risoluzione del
+            dolore"
           </h5>
         </div>
 

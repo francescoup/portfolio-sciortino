@@ -4,14 +4,16 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Luca Sciortino, Fisioterapista e Osteopata ad Agrigento",
+  title:
+    "Dott. Luca Sciortino, Osteopata, Fisioterapista e Chinesiologo - Agrigento e Alessandria della Rocca",
   description:
-    "Fisioterapista e Osteopata, riceve ad Agrigento e Alessandria della Rocca",
+    "Il dott. Luca Sciortino, Osteopata, Fisioterapista e Chinesiologo, riceve ad Agrigento e Alessandria della Rocca - Cerco sempre di offrire a ciascun paziente un programma riabilitativo personalizzato, costruito direttamente sulle problematiche del singolo individuo",
   keywords: [
     "fisioterapista Agrigento",
     "osteopata Agrigento",
     "Luca Sciortino Fisioterapista",
     "Luca Sciortino Osteopata",
+    "Chinesiologo Agrigento",
   ],
 };
 
